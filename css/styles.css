@@ -11644,7 +11644,7 @@ section.container_1 {
   display: flex;
 }
 
-section.left {
+section.left_1 {
   padding: 4rem;
   margin-bottom: 0.5rem;
 }
@@ -11654,4 +11654,21 @@ section.left {
   height: 42vh;
   border-radius: 35%;
   margin: auto;
+}
+
+section.container_2 {
+  display: flex;
+}
+
+section.left_2 {
+  padding: 6rem;
+}
+
+section.right_2 {
+  padding: 6rem;
+}
+
+section.container_3 {
+  display: flex;
+  padding-left: 10rem;
 }
