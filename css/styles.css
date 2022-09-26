@@ -11652,7 +11652,7 @@ header.masthead .post-heading .meta a {
 }
 
 section.container_1 {
-  display: flexbox;
+  display: flex;
 }
 
 section.left_img {
