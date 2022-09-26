@@ -11652,17 +11652,21 @@ header.masthead .post-heading .meta a {
 }
 
 section.container_1 {
-  display: flex;
+  display: flexbox;
 }
 
 section.left_img {
-  padding: 8%;
+  padding-top: 8%;
   margin-bottom: 0rem;
 }
 
+section.reight_1 {
+  padding-right: 8%;
+}
+
 .prof_Chuang {
-  width: 35vh;
-  height: 42vh;
+  width: 30vh;
+  height: 35vh;
   border-radius: 30%;
   margin: auto;
 }
