@@ -11655,15 +11655,15 @@ section.container_1 {
   display: flex;
 }
 
-section.left_1 {
-  padding: 4rem;
-  margin-bottom: 0.5rem;
+section.left_img {
+  padding: 8%;
+  margin-bottom: 0rem;
 }
 
 .prof_Chuang {
   width: 35vh;
   height: 42vh;
-  border-radius: 35%;
+  border-radius: 30%;
   margin: auto;
 }
 
