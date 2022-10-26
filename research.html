@@ -110,17 +110,176 @@
         <div class="col-md-10 col-lg-8 col-xl-7">
           <!-- Post preview-->
           <div class="post-preview">
-            <h1 class="post-title">Topic</h1>
-            <p>description</p>
+            <h1 class="post-title">
+              Bioinfomatics Analysis Tools and Packages Development
+            </h1>
+            <p>
+              Cancer genomics has been evolving rapidly, fueled by the emergence
+              of numerous studies and public databases through next-generation
+              sequencing technologies. However, the downstream programs used to
+              preprocess and analyze data on somatic mutations are scattered in
+              different tools, most of which require specific input formats.
+              Here, we developed a user-friendly Python toolkit, MutScape, which
+              provides a comprehensive pipeline of filtering, combination,
+              transformation, analysis and visualization for researchers, to
+              easily explore the cohort-based mutational characterization for
+              studying cancer genomics when obtaining somatic mutation data.
+              MutScape not only can preprocess millions of mutation records in a
+              few minutes, but also offers various analyses simultaneously,
+              including driver gene detection, mutational signature, large-scale
+              alteration identification and actionable biomarker annotation.
+              Furthermore, MutScape supports somatic variant data in both
+              variant call format and mutation annotation format, and leverages
+              caller combination strategies to quickly eliminate false
+              positives. With only two simple commands, robust results and
+              publication-quality images are generated automatically. Herein, we
+              demonstrate the ability of MutScape to correctly reproduce known
+              results using breast cancer samples from The Cancer Genome Atlas.
+              More significantly, discovery of novel results in cancer genomic
+              studies is enabled through the advanced features in MutScape.
+              MutScape is freely available on GitHub, at
+              <a href="https://github.com/anitalu724/MutScape"
+                >https://github.com/anitalu724/MutScape</a
+              >.
+            </p>
             <img
               class="img-fluid"
-              src="./assets/img/demoResearch.png"
-              style="border: 1px solid"
+              src="./assets/img/Mutscape_overview.png"
+              style="
+                border: 1px solid;
+                width: 58vh;
+                display: block;
+                margin: auto;
+              "
               alt=""
             />
-            <span class="caption text-muted">demo figure</span>
+            <span class="caption text-muted"
+              >MutScape <br />
+              Data preprocessing module: The main workflow starts with a TSV
+              file, which records the input paths of either VCF or MAF files and
+              the criteria of the filtering and combination strategies. The VCF
+              inputs are transformed to a combined, filtered MAF file, which is
+              the basis of the analysis and visualization module. Analysis and
+              visualization module: This consists of functions to perform common
+              and advanced analyses in cancer genomics and generate
+              publication-ready plots and tables (shown in bold). The square
+              brackets indicate the libraries or packages we implemented in
+              MutScape. A simple specification and the related function
+              (italics) are shown. HRD: homologous recombination
+              deficiency</span
+            >
           </div>
           <br />
+          <div class="post-preview">
+            <h1 class="post-title">Metagenomics</h1>
+            <p>
+              As next-generation sequencing technology has become more advanced,
+              research on microbial 16S ribosomal DNA sequences has developed
+              rapidly. Sequencing of 16S ribosomal DNA allows the composition of
+              bacteria and archaea in a sample to be obtained and many
+              analytical tools related to 16S ribosomal DNA sequences have been
+              proposed; however, most do not include a user-friendly platform
+              with a graphical user interface. Here, a comprehensive and
+              easy-to-use online platform, Easy Microbiome Analysis Platform
+              (EasyMAP), has been developed for analysis of 16S ribosomal DNA
+              sequencing data. EasyMAP integrates the QIIME2, LefSe, and PICRUSt
+              pipelines and includes temporal profiling analysis. Users can
+              perform quality checks, taxonomy differential abundance analysis,
+              microbial gene function prediction and longitudinal analysis with
+              step-by-step guidance. EasyMAP is a user-friendly tool for
+              comprehensive analysis of 16S ribosomal DNA sequencing data. The
+              web server and documentation are freely available at
+              <a href="http://easymap.cgm.ntu.edu.tw/"
+                >http://easymap.cgm.ntu.edu.tw/</a
+              >.
+            </p>
+            <img
+              class="img-fluid"
+              src="./assets/img/EasyMap_fig.jpeg"
+              style="
+                border: 1px solid;
+                width: 58vh;
+                display: block;
+                margin: auto;
+              "
+              alt=""
+            />
+            <span class="caption text-muted"
+              >EasyMAP <br />
+              The cyan block indicates the files that can be uploaded to the
+              system. The yellow block is the QIIME2 pipeline. The procedure
+              starts from sequence demultiplexing, operational taxonomic unit
+              (OTU) table construction, and taxonomy assignment to microbiome
+              alpha and beta diversity analysis. The green block is the extended
+              analysis based on the results of QIIME2, which integrates LEfSe
+              and PICRUSt for functional analysis and dif- ferential abundance
+              analysis and stores the OTU results of each sample for temporal
+              profiling of microbiome composition across the indicated time
+              points. The purple block is the outputs of EasyMAP, including
+              visualization files and statistical results generated from QIIME2,
+              and image files (png files) from the extended analysis. Y.-M. Hung
+              et al.</span
+            >
+          </div>
+          <br />
+          <div class="post-preview">
+            <h1 class="post-title">De novo Whole-Genome Assembly</h1>
+            <p>to be added</p>
+          </div>
+          <br />
+          <div class="post-preview">
+            <h1 class="post-title">Precision Medicine</h1>
+            <p>to be added</p>
+          </div>
+          <br />
+          <div class="post-preview">
+            <h1 class="post-title">
+              Artificial Intelligence and Deep Learning in Biomedicine
+            </h1>
+            <p>
+              Deciphering breast cancer molecular subtypes by DL approaches
+              could provide a convenient and method for the diagnosis of breast
+              cancer patients. It could reduce costs associated with
+              transcriptional profiling and subtyping discrepancy between IHC
+              assays and mRNA expression. Therefore, we aim to develop a highly
+              versatile 2-steps transfer learning pipeline for pathological
+              images using weight obtained from model trained with the 70 gene
+              signature images, for our final study. Weights from 4 pre-trained
+              models namely VGG16, ResNet50, ResNet101, and Xception were used
+              to train TCGA-BRCA datasets to predict 4 intrinsic breast cancer
+              subtypes. Furthermore, ResNet101 model was used for training with
+              weights from ImageNet for comparison with the aforementioned
+              models. The 2-steps DL models showed promising classification
+              results with the overall accuracy of slide-wise prediction as
+              0.913 with ResNet101 model. The DL model was additionally
+              benchmarked with the common Genefu tool for breast cancer
+              classification. The results demonstrated that the performance of
+              the DL model is comparable to that of Genefu, even superior in
+              certain breast cancer subtypes.
+            </p>
+            <img
+              class="img-fluid"
+              src="./assets/img/breast_cancer_risk_prediction.png"
+              style="
+                border: 1px solid;
+                width: 58vh;
+                display: block;
+                margin: auto;
+              "
+              alt=""
+            />
+            <span class="caption text-muted"
+              >The whole slide images (WSI) were used to generate smaller
+              patches of 512x512 pixels. These small patches then underwent
+              normalization for hematoxylin and eosin staining. Next, blurry and
+              pixelated images were removed using the Laplacian algorithm. The
+              retained images were used for model training, validation, and
+              testing. Finally, to illustrate how different models learn to
+              distinguish low-risk and high-risk samples, we used gradient-
+              weighted class activation to create a heatmap for each
+              image.</span
+            >
+          </div>
         </div>
       </div>
     </div>
